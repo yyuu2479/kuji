@@ -3,7 +3,7 @@ $(function(){
         var math = Math.floor(Math.random() * 5);
 
         if(math == 4){
-            $('#answer').text('大吉！！');
+            $('#answer').text('大吉');
         }else if(math == 3){
             $('#answer').text('中吉');
         }else if(math == 2){
@@ -20,7 +20,6 @@ $(function(){
     });
 
 });
-
 
 function FizzBuzz() {
     for (let i = 1; i < 101 ; i++) {
