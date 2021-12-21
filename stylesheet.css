@@ -1,60 +1,60 @@
 * {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    list-style: none;
-  }
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  list-style: none;
+}
 
-body{
-    font-family: "Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif;
+body {
+  font-family: "Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif;
 }
 
 /*---------------------------------------------------------------------------------*/
 
-.kuji{
-    background-color: red;
-    box-shadow:0px 20px rgb(196, 24, 24);
-    width: 550px;
-    margin: auto;
-    padding: 200px 200px;
-    opacity: 0.9;
+.kuji-title {
+  text-align: center;
 }
 
-.kuji:hover{
-    opacity: 1;
+.kuji {
+  background-color: red;
+  box-shadow: 0px 20px rgb(196, 24, 24);
+  width: 550px;
+  margin: auto;
+  padding: 200px 200px;
+  opacity: 0.9;
 }
 
-.kuji:active{
-    position: relative;
-    top: 20px;
-    box-shadow: none;
+.kuji:hover {
+  opacity: 1;
 }
 
-#answer{
-    text-align: center;
-    font-size: 30px;
-    color: white;
+.kuji:active {
+  position: relative;
+  top: 20px;
+  box-shadow: none;
 }
 
-
-
-#reset{
-    background-color: rgb(38, 226, 163);
-    box-shadow: 0px 5px rgb(23, 185, 131);
-    width: 200px;
-    margin: auto;
+#answer {
+  text-align: center;
+  font-size: 30px;
+  color: white;
 }
 
-#reset p{
-    padding: 10px 0px;
-    margin-top: 100px;
-    text-align: center;
+#reset {
+  background-color: rgb(38, 226, 163);
+  box-shadow: 0px 5px rgb(23, 185, 131);
+  width: 200px;
+  margin: auto;
 }
 
-#reset:active{
-    position: relative;
-    top: 5px;
-    box-shadow: none;
+#reset p {
+  padding: 10px 0px;
+  margin-top: 100px;
+  text-align: center;
 }
 
-
+#reset:active {
+  position: relative;
+  top: 5px;
+  box-shadow: none;
+}
