@@ -2,23 +2,22 @@ $(function(){
     $('.kuji').click(function(){
         var math = Math.floor(Math.random() * 5);
 
-        if(math == 4){
-            $('#answer').text('大吉');
-        }else if(math == 3){
-            $('#answer').text('中吉');
-        }else if(math == 2){
-            $('#answer').text('小吉');
-        }else if(math == 1){
-            $('#answer').text('凶(T ^ T)');
-        }else{
-            $('#answer').text('大凶∑(ﾟДﾟ)');
-        }
+    if(math == 4){
+        $('#answer').text('大吉');
+    }else if(math == 3){
+        $('#answer').text('中吉');
+    }else if(math == 2){
+        $('#answer').text('小吉');
+    }else if(math == 1){
+        $('#answer').text('凶(T ^ T)');
+    }else{
+        $('#answer').text('大凶∑(ﾟДﾟ)');
+    }
     });
 
     $('#reset').click(function(){
         $('#answer').text('クリック!!!');
     });
-
 });
 
 function FizzBuzz() {
