@@ -3,11 +3,11 @@ $(function(){
         var math = Math.floor(Math.random() * 5);
 
     if(math == 4){
-        $('#answer').text('大吉');
+        $('#answer').text('大吉_:(´ཀ`」 ∠):');
     }else if(math == 3){
-        $('#answer').text('中吉');
+        $('#answer').text('中吉٩( ᐛ )و');
     }else if(math == 2){
-        $('#answer').text('小吉');
+        $('#answer').text('小吉(๑>◡<๑)');
     }else if(math == 1){
         $('#answer').text('凶(T ^ T)');
     }else{
